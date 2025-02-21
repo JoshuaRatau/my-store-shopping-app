@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
 import { Card, CardMedia, CardContent, Typography, Grid, Container, Box, Button } from "@mui/material";
-import DeleteIcon from "@mui/icons-material/Delete"; 
+import DeleteIcon from "@mui/icons-material/Delete"; //Delete Icon
 
 const Cart: React.FC = () => {
   const cartContext = useContext(CartContext);
