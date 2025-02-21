@@ -43,6 +43,8 @@ const Cart: React.FC = () => {
                   {product.title}
                 </Typography>
                 <Typography variant="body2">${product.price.toFixed(2)}</Typography>
+
+                
                 <Button 
                   variant="contained" 
                   color="error" 
